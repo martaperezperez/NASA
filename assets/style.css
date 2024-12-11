@@ -1,0 +1,72 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: black;
+}
+
+h1,h2 {
+    color: darkblue;
+    text-align: center;
+}
+
+form {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 400px;
+    background: white;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+form input{
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+form button {
+    background-color: darkblue;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: darkblue;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    border: 1px solid gray;
+    padding: 10px;
+    text-align: center;
+}
+
+table th {
+    background-color: darkblue;
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: white;
+}
+
+a {
+    color: darkblue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
